@@ -8,9 +8,9 @@
 }
 header .header-banner {
 
-background-image: url("ring.jfif");
+background-image: url("logo2.png");
 width: 100%;
-height: calc(100vh - 500px);
+height: 100%;
 background-repeat: no-repeat;
 background-position: center center;
 min-height:100%;
@@ -37,6 +37,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow:visible;
 }
 
 header h2 {
@@ -83,6 +84,7 @@ text-align: center; /*IE*/
 width: fit-content;
 
 }
+
     
 header nav ul li {
 
@@ -96,17 +98,14 @@ font-family: "Open Sans", sans-serif;
 font-weight: 400;
 font-size: 18px;
 letter-spacing: 3px;
-color: #172029;
+color: #ffffff;
 text-transform: uppercase;
 text-decoration: none;
 
 }
 
-.disclaimer {
-
-display: none;
     
-}
+
 footer {
 
 width: calc(100% - 80px);
@@ -148,17 +147,39 @@ width: 32px;
 float: right;
 
 }
-.footer-links {
-
-    float: left;
-    }
-
 .footer-sm img {
 
-width: 100%;
-margin-bottom: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        
+        }
+
+.footer-sm2 {
+        float:left;
+}
+.footer-sm2 img {
+
+        width: 30%;
+        
+        
+        
+        }
+.asukoht {
+
+display: block;
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 18px;
+letter-spacing: 2px;
+line-height: 24px;
+color: #ffffff;
+text-transform: uppercase;
+margin: auto;
+
 
 }
+
+
 hr {
 
 color: #4f5663;
@@ -191,6 +212,25 @@ text-align: center;
 flex-basis: 300px;
 
 } 
+.container .nupp:hover {
+background-color: red;
+}
+.container .nupp {
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #555;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
 
 .post-header {       
 
@@ -208,7 +248,7 @@ text-shadow: 3px 3px 9px #111111;
     /*positsioneerimine*/
 
 position: absolute;
-top: 50%;
+top: 100%;
 left: 50%;
 transform: translate(-50%, -50%);
 
@@ -259,7 +299,7 @@ header nav ul li {
 }
 @media only screen and (min-width: 950px) {
 
-.disclaimer {
+.asukoht {
 
         display: block;
         font-family: "Open Sans", sans-serif;
@@ -269,16 +309,11 @@ header nav ul li {
         line-height: 24px;
         color: #ffffff;
         text-transform: uppercase;
-        float: left;
-        margin: 0 80px;
+        margin:auto;
 
 }
 
-.disclaimer span {
 
-        font-style: italic;
-
-}
 
 }
 
