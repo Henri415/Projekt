@@ -275,7 +275,7 @@ hr {
     justify-content: center;
     -o-flex-flow: row wrap;
     justify-content: center;
-
+    height: 100%;
 }
 
 
@@ -360,5 +360,10 @@ item img{
     text-align: left;
     padding: 50px;
     font-size: 24px;
+}
+
+#index-footer{
+    position: fixed;
+    bottom: 0px;
 }
 
