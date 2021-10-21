@@ -364,7 +364,7 @@ item img{
 }
 
 #index-footer{
-    position: fixed;
-    bottom: 0px;
+    margin-top: 250px;
+    position: center;
 }
 
