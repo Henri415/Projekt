@@ -38,7 +38,7 @@ header h1 {
 }
 
 
-html {
+body {
     background: url('smoke.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,6 +46,7 @@ html {
     background-size: cover;
     overflow: visible;
     height: 100%;
+    width: 100%;
 }
 
 header h2 {
